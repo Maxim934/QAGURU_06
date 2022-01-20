@@ -5,6 +5,7 @@ import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -19,7 +20,7 @@ public class DownloadTest {
         Configuration.startMaximized = true;
         Configuration.downloadsFolder = "resources";
     }
-
+    //comment 1 for hw
     @Test
     public void downloadFile() throws IOException {
         open("https://the-internet.herokuapp.com/download");
