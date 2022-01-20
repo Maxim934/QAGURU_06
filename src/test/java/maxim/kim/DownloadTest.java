@@ -20,9 +20,9 @@ public class DownloadTest {
         Configuration.startMaximized = true;
         Configuration.downloadsFolder = "resources";
     }
-    //comment 1 for hw
-    //comment 2 for hw
-    //comment 3 for hw
+    //comment 1.1 for hw
+    //comment 2.1 for hw
+    //comment 3.1 for hw
     @Test
     public void downloadFile() throws IOException {
         open("https://the-internet.herokuapp.com/download");
