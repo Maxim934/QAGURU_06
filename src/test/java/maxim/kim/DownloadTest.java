@@ -21,6 +21,7 @@ public class DownloadTest {
         Configuration.downloadsFolder = "resources";
     }
     //comment 1 for hw
+    //comment 2 for hw
     @Test
     public void downloadFile() throws IOException {
         open("https://the-internet.herokuapp.com/download");
